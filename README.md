@@ -1,5 +1,4 @@
 # Amezify
-" I have Created an Amazon clone website using HTML and CSS, replicating the popular e-commerce platform's user interface and design."
 
 I created an Amazon clone using HTML and CSS, replicating the popular e-commerce platform's user interface. 
 This project mimics the layout and design of Amazon's homepage, featuring product listings, navigation menus, and a search bar. 
