@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#131921 ;
+    color: white;
+    display: flex; /*we use display :flex if you want to show all content on same navbar */ 
+    align-items: center;    
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height:50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/** box 2**/
+.add-first{
+color:#cccccc ;
+font: size 0.85rem ;/* rem used as per the windows size it will set the screen size */
+margin-left: 15px;  /*  gap dene ke liye use kiya h */
+
+}
+.add-second{
+font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly; /* space  barobrr baata h */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;/* corner round*/
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 80px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+
+.search-input{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+
+}
+.saerch-icon{
+    width: 40px;
+    display: flex;
+    color: #131921;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* Box 4*/
+span{
+color:white ;
+font-size: 10pxpx;
+    position: relative;
+    width: 100%;
+    height: 14px;
+    margin-left: 10px;
+   
+}
+.nav-second{
+    font-size: 10px;
+    font-weight: 700;
+    
+      
+}
+/*box5*/
+.nav-return{
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 14px;
+    
+
+}
+.nav-orders{
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 14px;
+    margin-left: 60px;
+
+
+   /* display: flex;
+    
+    color:#cccccc ;
+    align-items: center;
+    
+    font-size: 1rem;
+    font-weight: 700;*/
+    
+}
+
+/*Box 6*/
+.nav-cart  {
+   margin-left: 10px;
+    margin-right:30px;
+  
+    font-size: 18px;
+
+}
+
+.nav-message{
+   
+    font-size: small;
+    display: flex;
+    margin-right: 30px ;
+    
+}
+
+/* code for the panal */
+
+.panel{
+   
+height: 39px ;
+background-color:#222f3d;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.panel-all{
+    margin-right: 0px;
+}
+
+.panal-options {
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    margin-right: 250px;
+    width: 70%;
+    font-size: 0.85rem;
+   
+}
+.a{
+    color:  white;
+    
+}
+
+.space{
+    width: 50%;
+}
+
+/*hero section */
+.hero-section{
+    display: flex;
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+     align-items: center; /* center vertically */
+    justify-items:  center;/* Horizantly  center*/
+    justify-content: space-evenly; 
+    font-size: 0.85rem;
+
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+ color: #007185;
+
+
+}
+
+/*shop section */
+.box{
+    height: 300px;
+   /* border: 2px solid black;*/
+    width:  23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section{
+     display: flex; /* saare box ko ek line me la saku isiliye ye code likha h */
+     flex-wrap: wrap; /* With this setting, flex items are allowed to wrap onto the next line if they can't fit within the container's width on the current line.*/
+     justify-content: space-evenly;
+     background-color: #e2e7e6;
+     font-size: 14px;
+}
+.box-img{
+    height: 200px;
+   background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   background-repeat: no-repeat;
+
+}
+.box-content{
+margin-left: 1rem;
+margin-right: 1rem;
+color: #007185;
+font-size: 14px;
+}
+/* writing code for footer*/
+
+ footer{
+    margin-top: 2rem;
+ }
+
+.foot-panel1{
+    height: 49px;
+    background-color: #374758;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+.foot-panel2{
+    
+    background-color: #222f3d;
+    color: white;
+    height: 300PX;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+ul{
+    margin-top: 20px;
+}
+Ul a{display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.footer-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:  0.5px solid rgb(238, 228, 228);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-logo{
+   background-image: url('amazon_logo.png');
+    background-size: cover;
+    height:50px;
+    width: 100px;
+
+}
+/*Copywrite*/
+
+.foot-panel4{
+    background-color:#374758 ;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    
+    /* display: flex;
+    justify-content: center; */
+}
+.pages{
+    padding-top: 25px; /*spaces fdrom top*/
+    
+}
+.copyright{
+    padding-top: 5px;
+   
+}
+
